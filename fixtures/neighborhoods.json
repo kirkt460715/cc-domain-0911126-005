@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "id": "n0",
+      "region": "east",
+      "rural": false
+    },
+    {
+      "id": "n1",
+      "region": "east",
+      "rural": false
+    },
+    {
+      "id": "n2",
+      "region": "east",
+      "rural": false
+    },
+    {
+      "id": "n3",
+      "region": "east",
+      "rural": false
+    },
+    {
+      "id": "n4",
+      "region": "east",
+      "rural": false
+    },
+    {
+      "id": "n5",
+      "region": "west",
+      "rural": true
+    },
+    {
+      "id": "n6",
+      "region": "west",
+      "rural": true
+    },
+    {
+      "id": "n7",
+      "region": "west",
+      "rural": true
+    },
+    {
+      "id": "n8",
+      "region": "west",
+      "rural": true
+    },
+    {
+      "id": "n9",
+      "region": "west",
+      "rural": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0-1",
+      "from": "n0",
+      "to": "n1",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e1-0",
+      "from": "n1",
+      "to": "n0",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e1-2",
+      "from": "n1",
+      "to": "n2",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e2-1",
+      "from": "n2",
+      "to": "n1",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e2-3",
+      "from": "n2",
+      "to": "n3",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e3-2",
+      "from": "n3",
+      "to": "n2",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e3-4",
+      "from": "n3",
+      "to": "n4",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e4-3",
+      "from": "n4",
+      "to": "n3",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e4-5",
+      "from": "n4",
+      "to": "n5",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e5-4",
+      "from": "n5",
+      "to": "n4",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e5-6",
+      "from": "n5",
+      "to": "n6",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e6-5",
+      "from": "n6",
+      "to": "n5",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e6-7",
+      "from": "n6",
+      "to": "n7",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e7-6",
+      "from": "n7",
+      "to": "n6",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e7-8",
+      "from": "n7",
+      "to": "n8",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e8-7",
+      "from": "n8",
+      "to": "n7",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e8-9",
+      "from": "n8",
+      "to": "n9",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    },
+    {
+      "id": "e9-8",
+      "from": "n9",
+      "to": "n8",
+      "metres": 100,
+      "delay_seconds": 0,
+      "steps": 0,
+      "slope_permille": 0,
+      "closed": false,
+      "profiles": [
+        "walk"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "walk",
+      "seconds_per_km": 1000,
+      "step_free": false,
+      "max_slope_permille": 100,
+      "max_seconds": 300,
+      "decay": [
+        {
+          "seconds": 300,
+          "weight_ppm": 1000000
+        }
+      ]
+    }
+  ],
+  "communities": [
+    {
+      "id": "c0",
+      "node": "n0",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    },
+    {
+      "id": "c1",
+      "node": "n1",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    },
+    {
+      "id": "c2",
+      "node": "n2",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    },
+    {
+      "id": "c3",
+      "node": "n3",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    },
+    {
+      "id": "c4",
+      "node": "n4",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    },
+    {
+      "id": "c5",
+      "node": "n5",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    },
+    {
+      "id": "c6",
+      "node": "n6",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    },
+    {
+      "id": "c7",
+      "node": "n7",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    },
+    {
+      "id": "c8",
+      "node": "n8",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    },
+    {
+      "id": "c9",
+      "node": "n9",
+      "profile": "walk",
+      "service": "daycare",
+      "demand": 10,
+      "priority": 1,
+      "max_fee_cents": 1000
+    }
+  ],
+  "facilities": [
+    {
+      "id": "f0",
+      "node": "n0",
+      "service": "daycare",
+      "capacity": 5,
+      "fee_cents": 100,
+      "profiles": [
+        "walk"
+      ],
+      "open": true,
+      "pool": "pool0"
+    },
+    {
+      "id": "f1",
+      "node": "n1",
+      "service": "daycare",
+      "capacity": 5,
+      "fee_cents": 100,
+      "profiles": [
+        "walk"
+      ],
+      "open": true,
+      "pool": "pool1"
+    },
+    {
+      "id": "f2",
+      "node": "n2",
+      "service": "daycare",
+      "capacity": 5,
+      "fee_cents": 100,
+      "profiles": [
+        "walk"
+      ],
+      "open": true,
+      "pool": "pool2"
+    }
+  ]
+}
